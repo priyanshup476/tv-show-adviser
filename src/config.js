@@ -1,0 +1,7 @@
+const BASE_URL="https://api.themoviedb.org/3/";
+const API_KEY_PARAM = "?api_key=61b9c775dad8f5986aadbd109b4f44a8";
+const BACKDROP_BASE_URL="https://image.tmdb.org/t/p/original";
+const SMALL_IMG_COVER_BASE_URL="https://image.tmdb.org/t/p/w300";
+const API_BEARER_TOKEN="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxYmIwZjQ4MWQ0YWFlMzIxYWE3ZDgzNTM0Y2NmYWNkOSIsInN1YiI6IjY0ZTRhZjkyZTg5NGE2MDExZWY2NWU2MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.iH8g74Mb8C5eEWaXV1pqGeCmPNuGesmCdUhuDsJBv2M0";
+
+export{BASE_URL,API_KEY_PARAM,BACKDROP_BASE_URL,SMALL_IMG_COVER_BASE_URL,API_BEARER_TOKEN}
